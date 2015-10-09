@@ -1,0 +1,6 @@
+[WANdisco-svn1.8]
+name=WANdisco SVN Repo 1.8
+enabled=1
+baseurl=http://opensource.wandisco.com/centos/6/svn-1.8/RPMS/x86_64/
+gpgcheck=1
+gpgkey=http://opensource.wandisco.com/RPM-GPG-KEY-WANdisco

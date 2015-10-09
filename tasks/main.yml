@@ -1,0 +1,13 @@
+---
+- name: install wandisco yum repository (for subversion)
+  copy:
+    dest: /etc/yum.repos.d/WANDisco-svn1.8.repo
+    src: WANDisco-svn1.8.repo
+    owner: root
+    group: root
+    mode: 0644
+
+- name: install subversion
+  yum:
+    name: subversion
+    state: installed
